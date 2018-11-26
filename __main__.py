@@ -11,4 +11,4 @@ if __name__ == "__main__":
 
     app.add_url_rule(rule="/", view_func=index)
 
-    app.run()
+    app.run(host="0.0.0.0")
